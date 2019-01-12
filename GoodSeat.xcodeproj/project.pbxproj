@@ -16,6 +16,8 @@
 		CB0F445B21E969DD00655E3E /* GoodSeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F445A21E969DD00655E3E /* GoodSeatTests.swift */; };
 		CB0F446721E9701500655E3E /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F446621E9701500655E3E /* TimeTable.swift */; };
 		CB0F446921E971FA00655E3E /* TimeTableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F446821E971FA00655E3E /* TimeTableBuilder.swift */; };
+		CB0F446D21E980CD00655E3E /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F446B21E980CD00655E3E /* RouteCell.swift */; };
+		CB0F446E21E980CD00655E3E /* RouteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0F446C21E980CD00655E3E /* RouteCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		CB0F445C21E969DD00655E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB0F446621E9701500655E3E /* TimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 		CB0F446821E971FA00655E3E /* TimeTableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableBuilder.swift; sourceTree = "<group>"; };
+		CB0F446B21E980CD00655E3E /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		CB0F446C21E980CD00655E3E /* RouteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		CB0F444221E969DB00655E3E /* GoodSeat */ = {
 			isa = PBXGroup;
 			children = (
+				CB0F446A21E980AF00655E3E /* View */,
 				CB0F446521E96FBA00655E3E /* Model */,
 				CB0F444321E969DC00655E3E /* AppDelegate.swift */,
 				CB0F444521E969DC00655E3E /* FirstViewController.swift */,
@@ -111,6 +116,15 @@
 				CB0F446821E971FA00655E3E /* TimeTableBuilder.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CB0F446A21E980AF00655E3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F446B21E980CD00655E3E /* RouteCell.swift */,
+				CB0F446C21E980CD00655E3E /* RouteCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0F445021E969DD00655E3E /* LaunchScreen.storyboard in Resources */,
+				CB0F446E21E980CD00655E3E /* RouteCell.xib in Resources */,
 				CB0F444D21E969DD00655E3E /* Assets.xcassets in Resources */,
 				CB0F444B21E969DC00655E3E /* Main.storyboard in Resources */,
 			);
@@ -219,6 +234,7 @@
 				CB0F444421E969DC00655E3E /* AppDelegate.swift in Sources */,
 				CB0F444621E969DC00655E3E /* FirstViewController.swift in Sources */,
 				CB0F446921E971FA00655E3E /* TimeTableBuilder.swift in Sources */,
+				CB0F446D21E980CD00655E3E /* RouteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
