@@ -137,10 +137,20 @@
                                             <constraint firstAttribute="trailing" secondItem="KqR-bb-QMX" secondAttribute="trailing" id="ytc-3Q-STT"/>
                                         </constraints>
                                     </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mF6-IU-U96">
+                                        <rect key="frame" x="118" y="0.0" width="2" height="598"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="2" id="E0s-5l-y0U"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="0mf-Au-Lzm"/>
+                                    <constraint firstAttribute="trailing" secondItem="mF6-IU-U96" secondAttribute="trailing" id="0xG-8I-cBt"/>
+                                    <constraint firstItem="mF6-IU-U96" firstAttribute="top" secondItem="6KR-jx-lZg" secondAttribute="top" id="Vft-XR-DFg"/>
+                                    <constraint firstAttribute="bottom" secondItem="mF6-IU-U96" secondAttribute="bottom" id="eny-yB-RSk"/>
                                     <constraint firstItem="xCc-wj-yNb" firstAttribute="centerY" secondItem="6KR-jx-lZg" secondAttribute="centerY" id="huF-oH-Lpa"/>
                                     <constraint firstAttribute="trailing" secondItem="xCc-wj-yNb" secondAttribute="trailing" id="pAA-uE-CAj"/>
                                     <constraint firstItem="xCc-wj-yNb" firstAttribute="leading" secondItem="6KR-jx-lZg" secondAttribute="leading" id="r3T-C3-lfZ"/>
