@@ -15,6 +15,7 @@ class RouteCell: UITableViewCell {
     
     @IBOutlet weak var connectionLabel: UILabel!
     
+    @IBOutlet weak var trainType: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -33,6 +34,16 @@ class RouteCell: UITableViewCell {
                 return "-"
             }
         }()
+        
+
+        switch route.trainType {
+        case .allStation:
+            trainType.text = "各停"
+            trainType.textColor = .black
+        case .express:
+            trainType.text = "急行"
+            trainType.textColor = .red
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

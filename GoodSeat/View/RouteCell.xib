@@ -37,8 +37,14 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三田線" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lb-Ic-339">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三田線" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lb-Ic-339">
                         <rect key="frame" x="235.5" y="15" width="64.5" height="25.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="各停" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQz-hU-F85">
+                        <rect key="frame" x="257" y="101.5" width="43" height="25.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -47,6 +53,8 @@
                 <constraints>
                     <constraint firstItem="vmb-zM-4m3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="2aG-KF-xVH"/>
                     <constraint firstAttribute="trailingMargin" secondItem="7lb-Ic-339" secondAttribute="trailing" constant="4" id="4BJ-RN-llz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="zQz-hU-F85" secondAttribute="trailing" constant="4" id="6SX-T9-2cB"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zQz-hU-F85" secondAttribute="bottom" constant="8" id="Ch2-0R-ArR"/>
                     <constraint firstItem="8hV-bn-3kg" firstAttribute="leading" secondItem="vmb-zM-4m3" secondAttribute="trailing" constant="4" id="GbP-DL-84U"/>
                     <constraint firstItem="7lb-Ic-339" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="JDc-iU-RJU"/>
                     <constraint firstItem="8hV-bn-3kg" firstAttribute="top" secondItem="vmb-zM-4m3" secondAttribute="top" id="Yw3-Xi-07S"/>
@@ -60,6 +68,7 @@
                 <outlet property="connectionLabel" destination="7lb-Ic-339" id="Nwg-ll-MiC"/>
                 <outlet property="hourRabel" destination="vmb-zM-4m3" id="Ivw-rh-VTU"/>
                 <outlet property="minLabel" destination="ooq-d5-l0v" id="FLI-0c-MrZ"/>
+                <outlet property="trainType" destination="zQz-hU-F85" id="RCI-2K-JMg"/>
             </connections>
             <point key="canvasLocation" x="137.59999999999999" y="184.40779610194903"/>
         </tableViewCell>
