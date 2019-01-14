@@ -26,11 +26,11 @@ class RouteCell: UITableViewCell {
         connectionLabel.text = {
             switch route.connection {
             case .三田線:
-                return "OK"
+                return "三田線直通"
             case .南北線:
-                return "NG"
+                return "-"
             case .none:
-                return "NG"
+                return "-"
             }
         }()
     }

@@ -38,8 +38,8 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三田線" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lb-Ic-339">
-                        <rect key="frame" x="191" y="15" width="109" height="43"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                        <rect key="frame" x="235.5" y="15" width="64.5" height="25.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
