@@ -23,12 +23,13 @@ struct TimeTableBuilder {
                                      (29, false, .三田線), (33, false, .三田線), (37, true, .南北線), (39, false, .南北線), (43, false, .三田線),
                                      (47, true, .三田線),  (49, false, .南北線), (52, false, .南北線), (56, true, .三田線), (59, false, .三田線)
             ])
-//        let eight = createRoutes(h: 8, m: [], express: [], connected: [])
-//        let nine =  createRoutes(h: 9, m: [], express: [], connected: [])
-
+        
+        let nine = createRoutes(h: 9, m: [(3, false, .三田線), (7, true, .南北線), (10, false, .三田線), (14, false, .南北線), (19, true, .三田線),
+                                           (21, false, .三田線),(25, false, .南北線),(30, true, .三田線),(33, false, .三田線),(40, false, .三田線)])
         var all: [TimeTable.Route] = []
         all.append(contentsOf: seven)
         all.append(contentsOf: eight)
+        all.append(contentsOf: nine)
         
         return TimeTable(all: all)
     }
